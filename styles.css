@@ -1,0 +1,155 @@
+/* ===========
+BODY[BACKGROUND]
+==============*/
+
+body {
+  font-family: sans-serif;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-image: url(images/pattern-background-desktop.svg);
+}
+
+
+
+
+
+
+/* ===========
+CONTAINER
+==============*/
+.container {
+  margin: 200px auto 0px;
+  /* border: 3px solid black; */
+  width: 350px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+/* ===========
+HEADER
+==============*/
+.hero {
+  width: 350px;
+}
+
+
+/* ===========
+MAIN
+==============*/
+main {
+  /* margin-top: 80px; */
+  text-align: center;
+}
+main p {
+  font-size: 16px;
+}
+
+/* ==========
+    HEADER TAG
+============ */
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 23px;
+  font-weight: 800;
+}
+
+/* ==========
+    SUMMARY TEXT
+============ */
+p.summary {
+  color: hsl(224, 23%, 55%);
+  line-height: 20px;
+  margin: auto;
+  width: 300px;
+  /* border: 1px solid black; */
+}
+
+/* ==========
+    MUSIC0ICON,PRICE,CHANGE
+============ */
+.price-info {
+  background-color: hsl(225, 100%, 98%);
+  align-items: center;
+  margin: 25px auto 0px;
+
+  width: 250px;
+  border-radius: 10px;
+  padding: 0px 20px 0px;
+  /* border: 3px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+
+
+p.prices {
+  color: hsl(223, 47%, 23%);
+  font-weight: 800;
+}
+.price {
+  font-weight: 600;
+  color: hsl(224, 23%, 55%);
+}
+
+
+.change {
+  font-weight: 700;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+}
+.change:hover {
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, 0.767);
+}
+
+/* ==========
+    PROCEED PAYMENT
+============ */
+p.do-payment {
+  font-weight: 700;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 30px auto 0px;
+  width: 250px;
+  /* border: 1px solid black; */
+}
+p.do-payment:hover {
+  background-color: hsla(245, 75%, 52%, 0.678);
+}
+
+
+
+
+
+/* ==========
+    FOOTER
+============ */
+
+.cancel-payment {
+  font-weight: 700;
+  text-align: center;
+  width: 150px;
+  padding-bottom: 15px;
+  /* border: 1px solid black; */
+  margin: 10px auto 0px;
+  color: hsl(224, 23%, 55%);
+}
+.cancel-payment:hover{
+  color: hsl(223, 47%, 23%);
+}
+
+/* ==========
+    ATTRIBUTION
+============ */
+.attribution {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
