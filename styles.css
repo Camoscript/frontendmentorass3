@@ -1,4 +1,25 @@
 /* ===========
+TABLE OF CONTENT
+==============*/
+
+/* ===========
+1. BODY --contains info about the background inage e.t.c
+2. CONTAINER--The entire card
+3. HEADER-- Contains the hero image
+4. MAIN--contains all info except the cancel payment class
+5. FOOTER--contains the cancel payment class
+6. ATTRIBUTION--class belonging to the link from frontend mentor.io
+7. @MEDIA QUERY-- Makes the page responsive on mobile device below 375px
+==============*/
+
+
+
+
+
+
+
+
+/* ===========
 BODY[BACKGROUND]
 ==============*/
 
@@ -20,7 +41,6 @@ CONTAINER
 ==============*/
 .container {
   margin: 200px auto 0px;
-  /* border: 3px solid black; */
   width: 350px;
   background-color: white;
   overflow: hidden;
@@ -40,7 +60,6 @@ HEADER
 MAIN
 ==============*/
 main {
-  /* margin-top: 80px; */
   text-align: center;
 }
 main p {
@@ -64,21 +83,18 @@ p.summary {
   line-height: 20px;
   margin: auto;
   width: 300px;
-  /* border: 1px solid black; */
 }
 
 /* ==========
-    MUSIC0ICON,PRICE,CHANGE
+    MUSIC-ICON,PRICE,CHANGE
 ============ */
 .price-info {
   background-color: hsl(225, 100%, 98%);
   align-items: center;
   margin: 25px auto 0px;
-
   width: 250px;
   border-radius: 10px;
   padding: 0px 20px 0px;
-  /* border: 3px solid black; */
   display: flex;
   justify-content: space-between;
 }
@@ -115,7 +131,6 @@ p.do-payment {
   padding: 10px 15px;
   margin: 30px auto 0px;
   width: 250px;
-  /* border: 1px solid black; */
 }
 p.do-payment:hover {
   background-color: hsla(245, 75%, 52%, 0.678);
@@ -134,7 +149,6 @@ p.do-payment:hover {
   text-align: center;
   width: 150px;
   padding-bottom: 15px;
-  /* border: 1px solid black; */
   margin: 10px auto 0px;
   color: hsl(224, 23%, 55%);
 }
@@ -152,4 +166,21 @@ p.do-payment:hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+/* ==========
+    MEDIA QUERIES 
+============ */
+@media screen and (max-width:375px){
+  body{
+    background-image: url(images/pattern-background-mobile.svg);
+  }
+  .container{
+    width: 300px;
+    margin-top: 70px;
+  }
+  .hero{
+    width: 300px;
+  }
 }
