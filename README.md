@@ -21,7 +21,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Camoscript/frontendmentorass3)
-- Live Site URL: [Vercel.app](https://your-live-site-url.com)
+- Live Site URL: [Vercel.app]([https://your-live-site-url.com](https://frontendmentorass3.vercel.app/))
 
 ## My process
 
